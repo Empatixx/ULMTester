@@ -1,0 +1,330 @@
+[
+{
+    "message":"Které z tvrzení platí pro formuli ∀x[P(x) ⊃ Q(a,b)]",
+    "options": [
+    [1,"Je ekvivalentní s formulí [¬∃xP(x) ⊃ Q(a,b)]"],
+    [2,"Má stejné modely jako formule [¬∃xP(x) ⋁ Q(a,b)]"],
+    [3,"Její negací je formule ∀x[P(x) ⋀ ¬Q(a,b)]"],
+    [4,"Formule [∃xP(x) ⊃ Q(a,b)] z ní vyplývá."],
+    [5,"Je ekvivalentní formuli [∃xP(x) ⊃ Q(a,b)]"],
+    [6,"Je ekvivalentní s formulí [¬∃xP(x) ⋁ Q(a,b)]"],
+    [7,"Nemá žádný společný model s formulí [∀xP(x) ⊃ Q(a,b)]"]
+    ],
+    "answers": [2,4,5,6],
+    "id": 1
+},
+{
+    "message":"Které z tvrzení platí pro formuli ∀x∀y[P(x,y) ⊃ Q(f(x),y)]",
+    "options": [
+    [1,"V jejím modelu je binární relace P podmnožinou relace Q."],
+    [2,"V interpretační struktuře\nU = {1,2}, P={[x,y]|x=y}, Q={[x,y],x>=y},f ... identita\nje daná formule kontradikce."],
+    [3,"Není splnitelná, protože existuje interpretační struktura, která není jejím modelem."],
+    [4,"Je splnitelná, neboť existuje její model."],
+    [5,"Má jako svůj model například tuto interpretační strukturu:\nU = N (množina přir. čísel),\nP={[x,y]|x=y}, Q={[x,y]|x>=y},\nf' ... druhá mocnina."]
+    ],
+    "answers": [1,4,5],
+    "id": 2
+},
+{
+    "message":"Metoda Vennových diagramů",
+    "options": [
+    [1,"je metoda, pomocí které lze ověřit platnost pouze platných úsudků."],
+    [2,"je založena na naivní teorii množin."],
+    [3,"je metoda, pomocí níž lze ověřit libovolný platný úsudek."],
+    [4,"je sémantická metoda, kterou lze ověřit platnost Aristotelových sylogismů."],
+    [5,"je sémantická metoda, která ověřuje, zda závěr je platný ve všech modelech předpokladů."],
+    [6,"je sémantická metoda, kterou lze ověřit platnost Aristotelových sylogismů.\nje metoda, pomocí níž ověřujeme následující úsudek:"],
+    [7,"Marie má ráda každého vítěze a logika,\nKarel je vítěz a logik\n-----\nMarie má ráda Karla."],
+    [8,"Se používá pro ověření úsudku v PL 1 s maximálně třemi jednomístnými predikáty."]
+    ],
+    "answers": [2,4,5,6,8],
+    "id": 3
+},
+{
+    "message":"Pro formuli p ⊃ (q ⋁ ¬q)",
+    "options": [
+    [1,"je ekvivalentní s formulí q ⊃ (¬p ⋁ p)."],
+    [2,"je ekvivalentní s formulí p ⋀ ¬(q ⋁ ¬q)."],
+    [3,"je ekvivalentní s formulí (p ⋀ q) ⊃ q."],
+    [4,"její negace je splnitelná formule."],
+    [5,"je splnitelná."],
+    [6,"je logicky pravdivá, neboť konsekvent implikace je v každé valuaci výrokové proměnné q pravdivý."]
+    ],
+    "answers": [1,3,5,6],
+    "id": 4
+},
+{
+    "message":"Která z následujících tvrzení jsou pravdivá?",
+    "options": [
+    [1,"relace je podmnožina kartézského součinu"],
+    [2,"funkce sčítání reálných čísel je pouze parciální"],
+    [3,"následující relace nad celými čísly jsou totální funkce: sčítání, násobení, rozdíl"],
+    [4,"funkce dělení na celých číslech je parciální"],
+    [5,"libovolná množina uspořádaných dvojic reálných čísel je zobrazení"],
+    [6,"zobrazení není relace"]
+    ],
+    "answers": [1,3,4],
+    "id": 5
+},
+{
+    "message":"Sémantická metoda ve VL",
+    "options": [
+    [1,"je aplikovatelná pouze na tautologie."],
+    [2,"ověřuje platnost úsudku pomocí valuací výrokových proměnných."],
+    [3,"aplikovaná na daný úsudek ověřuje, zda závěr pravdivý ve všech modelech předpokladů."],
+    [4,"dokazuje platnost libovolného úsudku."],
+    [5,"využívá interpretační strukturu formule"],
+    [6,"není metoda sémantických tabel."],
+    [7,"Je tabulková metoda a metoda sémantickým sporem"]
+    ],
+    "answers": [2,3,6,7],
+    "id": 6
+},
+{
+    "message":"Pomocí rezoluční metody ve VL",
+    "options": [
+    [1,"Lze ověřit, že tento úsudek je platný:\nVšechny opice jsou krásné,\nJudy je opice\n-----\nJudy je krásná"],
+    [2,"lze sémanticky ověřovat platnost úsudku."],
+    [3,"lze nepřímo dokázat tautologičnost formule."],
+    [4,"lze ověřit platnost úsudku za použití následujícího pravidla: ze současné platnosti A ⋁ ¬B, a ¬A ⋁ B odvodíme spor."],
+    [5,"lze nepřímo dokázat platnost úsudku."],
+    [6,"lze ověřit tautologičnost formule a platnost úsudku VL."],
+    [7,"Lze ověřit, že tento úsudek je platný:\nVšechny opice jsou krásné,\nJudy je opice\n-----\nJudy je krásná."],
+    [8,"Lze ověřit, zda negovaná formule je kontradikce"]
+    ],
+    "answers": [3,5,6,8],
+    "id": 7
+},
+{
+    "message":"Následující úsudek:\nCíslo 2 je nezáporné.\nCíslo 2 je prvocíslo.\n-----\nCíslo 2 je delitelné samo sebou beze zbytku.",
+    "options": [
+    [1,"je platný, premisy i závěr platí za všech okolností."],
+    [2,"je platný, protože z pravdivých premis vyplývá pravdivý závěr."],
+    [3,"je platný, protože se nemůže v žádné interpretační struktuře stát, že by premisy platily a závěr neplatil."],
+    [4,"je neplatný, protože závěr z premis nevyplývá."],
+    [5,"je neplatný, protože formalizujeme-li jej, pak závěr není platný v libovolném modelu předpokladů."],
+    [6,"je neplatný, protože existuje interpretační struktura, v níž formalizované premisy platí a formalizovaný závěr nikoli"]
+    ],
+    "answers": [4,5,6],
+    "id": 8
+},
+{
+    "message":"Pomocí rezoluční metody v PL",
+    "options": [
+    [1,"lze parciálně rozhodnout tautologičnost formule"],
+    [2,"lze syntakticky ověřovat platnost Aristotelových sylogismů"],
+    [3,"Nelze rozhodnout platnost následující ho úsudku:\n1+1 je rovno 2\n2 je prvočíslo\n-----\ntedy 1+1 je prvočíslo"],
+    [4,"ověřujeme, zda závěr vyplývá z nespočetné množiny předpokladů"],
+    [5,"převádíme formuli na její Skolemovu klauzulární formu, tu následně negujeme a pouřijeme v důkazu"],
+    [6,"lze nepřímo dokazovat platnost daného úsudku"],
+    [7,"lze ověřit platnost libovolného Aristotelova sylogismu\nNelze rozhodnout platnost následující ho úsudku:"],
+    [8,"lze ověřit platnost libovolného Aristotelova sylogismu"]
+    ],
+    "answers": [1,2,6,7,8],
+    "id": 9
+},
+{
+    "message":"Která z následujících tvrzení platí pro tuto situaci: množina A je podmnožinou množiny B.",
+    "options": [
+    [1,"Prvek leží v množině A pouze když leží v množině B."],
+    [2,"Neexistuje prvek, který by ležel v množině B a neležel v množině A."],
+    [3,"Množina A je vlastní podmnožinou množiny B."],
+    [4,"Doplněk množiny B leží v doplňku množiny A."],
+    [5,"Všechny prvky množiny A leží v množině B i v případě, že A je prázdná množina."]
+    ],
+    "answers": [1,4,5],
+    "id": 10
+},
+{
+    "message":"Které z tvrzení platí pro formuli ∀x [P(x) ⊃Q(a,b)]",
+    "options": [
+    [1,"Je ekvivalentní formuli [∃xP(x) ⊃ Q(a,b)]"],
+    [2,"Má stejné modely jako formule [¬∃xP(x) ⋁ Q(a,b)]"],
+    [3,"Je ekvivalentní s formulí [¬∃xP(x) ⋁ Q(a,b)]"],
+    [4,"Formule [∃x P(x) ⊃Q(a,b)] z ní vyplývá."]
+    ],
+    "answers": [1,2,3,4],
+    "id": 11
+},
+{
+    "message":"Které z tvrzení platí pro formuli ∀x∀y [P(x,y) ⊃Q(f(x),y)]",
+    "options": [
+    [1,"relace Q funkční symbol se interpretuje jako totální funkce."],
+    [2,"funkční symbol se interpretuje jako totální funkce"],
+    [3,"V jejím modelu je binární relace P podmnožinou relace Q"],
+    [4,"Je splnitelná, neboť existuje její model"]
+    ],
+    "answers": [1,2,3,4],
+    "id": 12
+},
+{
+    "message":"Mějme množiny A = {1,2,3}, B = {b} a relaci R. Která z následujících tvrzení jsou platná?",
+    "options": [
+    [1,"Pokud relace R je def jako podmnožina AxB: {[1,b],[2,b],[3,b]},nejedna o injektivní zobrazení."],
+    [2,"Pokud relace R je def jako podmnožina BxA: {[b,1],[b,2],[b,3]},nejedná o zobrazení."],
+    [3,"Pokud relace R je def jako podmnožina AxB: {[1,b],[2,b],[3,b]},jedná o surjektivní zobrazení."],
+    [4,"Pokud relace R je def jako podmnožina BxA sjednoceno s AxB a jedná se o symetrickou relaci,\n potom je v relaci R dvojice [1,b], pak se v relaci R nachází rovněž dvojice [b,1]."]
+    ],
+    "answers": [1,2,3,4],
+    "id": 13
+},
+{
+    "message":"Pro formuli p⊃(q ⋁ ¬q)",
+    "options": [
+    [1,"Je splnitelná"],
+    [2,"Je ekvivalentní s formulí q⊃(¬p ⋁ p)"],
+    [3,"Je ekvivalentní s formulí (p ⋀ q) ⊃q"],
+    [4,"Je logicky pravdivá, neboť konsekvent implikace je v každé valuaci výrokové proměnné q pravdivý."]
+    ],
+    "answers": [1,2,3,4],
+    "id": 14
+},
+{
+    "message":"Následující úsudek:\nČíslo 2 je nezáporné.\nČíslo 2 je prvočíslo.\n-----\nČíslo 2 je dělitelné samo sebou beze zbytku.",
+    "options": [
+    [1,"je neplatný, protože formalizujeme-li jej, pak závěr není platný v libovolném modelu předpokladů."],
+    [2,"je neplatný, protože existuje interpretační struktura, v níž formalizované premisy platí a formalizovaný závěr nikoli."]
+    ],
+    "answers": [1,2],
+    "id": 15
+},
+{
+    "message":"Která z následujících tvrzení platí pro rezoluční metodu ve VL?",
+    "options": [
+    [1,"Pro důkaz pomocí rezoluční metody je nutné převést formuli do KNF"],
+    [2,"Rezoluční metoda umožňuje platnost úsudku jak sporem, tak přímou metodou"],
+    [3,"Platnost úsudku nezávisí na interpretaci."],
+    [4,"V případě nepřímého důkazu tautologičnosti pomocí rezoluční metody formule ((a ⊃ b) ∧ (b ⊃ c) ⊃ (a ⊃ c) dojde k odvození prázdné klausule."]
+    ],
+    "answers": [1,2,3,4],
+    "id": 16
+},
+{
+    "message":"Pomocí Vennových diagramů provádíme v PL 1:",
+    "options": [
+    [1,"Ověřování platnost úsuku v PL1, pokud obsažené predikáty jsou unární"],
+    [2,"Ověření platnosti úsudku, které jsou složeny ze tří (subjektivních) predikátových(S-P) výroku (kde S+ P jsou nějaké vlastnosti"],
+    [3,"Kontrolu správnosti kategorických sylogismů"]
+    ],
+    "answers": [1,2,3],
+    "id": 17
+},
+{
+    "message":"Určete, které z následujících tvrzení jsou pravdivé:",
+    "options": [
+    [1,"Relace použité pro interpretaci v PL1 musí být homogenní."],
+    [2,"Princip unifikace v obecné (…), kdy je |- ∀x Px⊃P(X/term)"],
+    [3,"Metodou přirozené dedukce v PL 1 lze dokazovat jak přímo, tak i nepřímo"],
+    [4,"Metodou sémantických tabel využívá disjunktivních zákonu"],
+    [5,"PL 1 pracuje pouze s totálními funkcemi, tj. takovými, kdy každý vzor má právě jeden obraz"],
+    [6,"Libovolnou n-argumentovou funkcí lze vyjádřit pomocí n+1 argumentové relace."],
+    [7,"Jestliže do platného úsudku přidáme jakoukoliv premisu…."],
+    [8,"jestliže jsou premisy i závěr pravdivý, pak je usudek platný NEPLATÍ!! "],
+    [9,"Správnost úsudku ověřujeme bez empirického zkoumání stavu světa"],
+    [10,"Správnost úsudku je dána pouze logickou strukturou premis a závěru"],
+    [11,"Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli H⊃A"],
+    [12,"Pokud je množina A vlastní podmnožinou B, pak B má alespoň jeden prvek, který neleží v A"],
+    [13,"Všechny podmnožiny relace A = {<1,2>,<2,4>,<3,6>}  jsou relacemi"],
+    [14,"Funkce dělení na celých číslech je parciální."],
+    [15,"Relace je podmnožina kartézského součinu"],
+    [16,"Při použití obecné rezoluční metody obecně vedeme důkaz nepřímo"],
+    [17,"Sound argument je takový, jehož premisy jsou pravdivé, tedy i závěr je pravdivý"],
+    [18,"Následující relace nad celými čísly jsou totální funkce: sčítání, násobení, rozdíl"],
+    [19,"Pro automatizované ověření platnosti úsudku je důležitá jeho správná formalizace"],
+    [20,"Hilbertův kalkul je úplný kalkul stejně jako metoda přirozené dedukce."],
+    [21,"Žádná valuace kde q=0 a r=0, není modelem formule (p⊃q) ⋀(q ∨ r)"],
+    [22,"Jedním z modelů formule (p⊃q) ⋀(q ∨ r) je valuace p=0, q=0, r=1"],
+    [23,"Každá valuace, pro kterou je q=1, je modelem formule (p ⊃ q) ∧ (q ∨ r). Správná"],
+    [24,"Formule ∀xPx⊃Qx definuje v dané interpretaci vazbu „být podmnožinou“ … P a Q"],
+    [25,"Formule ∀xPx⊃¬Qx definuje v dané interpretaci vazbu „být disjunktem“ … P a Q"],
+    [26,"Každá formule tvaru ∃xP(x) definuje v dané interpretaci určitou podmnožinu universa."],
+    [27,"Každá formule tvaru P(x) s volnou proměnnou x definuje v dané interpretaci určitou podmnožinu universa"]
+
+    ],
+    "answers": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27],
+    "id": 18
+},
+{
+    "message":"Které tvrzení platí:",
+    "options": [
+    [1,"Formule VL 2n možných valuací, kde n je počet výrokových proměnných v dané formuli."],
+    [2,"Pokud výrokově logický úsudek zapíšeme ve tvaru formule  (P1∧ P2 ∧… ∧ Pn)⊃Z, kde P1 - Pn jsou premisy \na Z je závěr, pak je úsudek platný právě tehdy a jen tehdy, když je tato formule pravdivá každé valuaci."],
+    [3,"Pokud mě zajímá podoba výsledné pravdivostní funkce dané formule, použiji tabulkovou metodu nikoli rezoluční."],
+    [4,"Metoda sémantických tabel je grafická metoda aplikace distributivního zákona."],
+    [5,"Metoda ověřování tautologičnosti formule sémantickým sporem ověřuje, zda existuje \nvaluace, která splňuje negovanou formuli."]
+    ],
+    "answers": [1,2,3,4,5],
+    "id": 19
+},
+{
+    "message":"Určete, co platí pro klausuli:",
+    "options": [
+    [1,"neobsahuje implikaci."],
+    [2,"neobsahuje konjunkci"],
+    [3,"je to elementární disjunkce"],
+    [4,"je to konečná  disjunkce literálů"]
+    ],
+    "answers": [1,2,3,4],
+    "id": 20
+},
+{
+    "message":"spojky ve VL jsou úplné",
+    "options": [
+    [1,"Neg, konjunkce, disjunkce"],
+    [2,"Negace, implikace"],
+    [3,"Negace, konjunkce"],
+    [4,"Negace, disjunkce"]
+    ],
+    "answers": [1,2,3,4],
+    "id": 21
+},
+{
+    "message":"Mezi syntaktické metody v PL",
+    "options": [
+    [1,"formální systém Hilbertova typu"],
+    [2,"obecná rez. metoda, Robinson"],
+    [3,"Negace, konjunkce"],
+    [4,"Negace, disjunkce"]
+    ],
+    "answers": [1,2,3,4],
+    "id": 22
+},
+{
+    "message":"Mezi sémantické metody v PL",
+    "options": [
+    [1,"vénovy diagramy"],
+    [2,"Rezoluční struktury aritě > 1"]
+    ],
+    "answers": [1,2],
+    "id": 23
+},
+{
+    "message":"Mezi sémantické metody ve VL",
+    "options": [
+    [1,"spor"],
+    [2,"tabulka"]
+    ],
+    "answers": [1,2],
+    "id": 24
+},
+{
+    "message":"Mezi syntaktické metody ve VL",
+    "options": [
+    [1,"rezoluční metoda P,N"],
+    [2,"semanticka"]
+    ],
+    "answers": [1,2],
+    "id": 25
+},
+{
+    "message":"Nechť F je formule VL obsahující literály a,b,c pak F:",
+    "options": [
+    [1,"je splnitelná, pokud je tautologií"],
+    [2,"má celkem 8 ohodnocení"],
+    [3,"může být převedena do úplné konjunktivní normální formy, pokud není tautologíí"],
+    [4,"je nesplnitelná, pokud nemá model"]
+    ],
+    "answers": [1,2,3,4],
+    "id": 26
+}
+]
