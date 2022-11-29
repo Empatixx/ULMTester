@@ -14,7 +14,7 @@ root.render(
         <Route path="/test" exact element={<Tester />} />
         <Route path="/" exact element={<Cheatsheet />} />
       </Routes>
-    </HashR>
+    </HashRouter>
   </React.StrictMode>
 );
 
